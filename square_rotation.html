@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>square_rotation</title>
+    <style>
+        html{
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            background-color: black;
+        }
+        
+        .container{
+            height: 300px;
+            width: 300px;
+            background-color: black;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            margin: -150px 0 0 -150px;
+        }
+        .square{
+            height:94%;
+            width: 94%;
+            background-color: pink;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            margin: -47% 0 0 -47%;
+            box-shadow: 0 0 20px red;
+          
+            
+        }
+        .black{
+            background-color: black;
+            box-shadow: 0 0 30px #fe007c;
+            animation: rotate 20s infinite linear,change-color 5s linear infinite;
+        }
+        @keyframes change-color{
+            0%{
+                background-color: darkgoldenrod;
+            }
+            25%{
+                background-color: blueviolet;
+            }
+            50%{
+                background-color: aqua;
+            }
+            75%{
+                background-color: teal;
+            }
+            100%{
+                background-color: green;
+            }
+        }
+        @keyframes rotate{
+            0%{
+                transform:rotate(0deg); 
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="square black">
+        <div class="square">
+        <div class="square black">
+        <div class="square">
+            <div class="square black">
+        <div class="square">
+            <div class="square black">
+        <div class="square">
+            <div class="square black">
+        <div class="square">
+            <div class="square black">
+        <div class="square">
+            <div class="square black">
+        <div class="square">
+            <div class="square black">
+        <div class="square">
+            <div class="square black">
+        <div class="square">
+            <div class="square black">
+        <div class="square">
+            <div class="square black">
+        <div class="square">
+            <div class="square black">
+        <div class="square">
+            <div class="square black">
+        <div class="square">
+        </div>
+            </div>
+                </div>
+            </div>
+                </div>
+            </div>
+                </div>
+            </div>
+                </div>
+            </div>
+                </div>
+        
+        </div>
+    
+    
+    
+    
+    
+                </div>
+            </div>
+                </div>
+            </div>
+                </div>
+            </div>
+                </div>
+            </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    
+</body>
+
+
+</html>
